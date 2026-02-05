@@ -21,3 +21,11 @@ def signin():
 @auth_bp.route('/register', methods=['POST'])
 def register():
     return "n"
+
+@auth_bp.route('/auth/profile')
+def auth_profile():
+    return render_template('auth_profile.html')
+
+@auth_bp.route('/auth/update')
+def auth_update():
+    return render_template('auth_update.html')

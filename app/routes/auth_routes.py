@@ -14,10 +14,6 @@ def logout():
     logout_user()
     return redirect(url_for('auth_bp.login'))
 
-@auth_bp.route('/signup', methods=['GET', 'POST'])
-def signup():
-    return render_template('signup.html')
-
 @auth_bp.route('/signin', methods=['GET', 'POST'])
 def signin():
     return render_template('signin.html')

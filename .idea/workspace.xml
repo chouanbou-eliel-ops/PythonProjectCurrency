@@ -4,38 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec02c0e1-9739-42dc-a083-a0cf02e3e9ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/PythonProjectCurrency.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Static/CSS/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Static/Scripts/scipts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/extensions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/conversion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/admin _routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/auth_routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/conversion_routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/admin_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/auth_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/currency_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/admin/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/auth/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/auth/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/conversion/history.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/conversion/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements_project2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+    <list default="true" id="ec02c0e1-9739-42dc-a083-a0cf02e3e9ca" name="Changes" comment="initialuisation du projet avec la mise en place des differnts services et fichiers de bases">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Static/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Static/Scripts/scipts.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/extensions.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/extensions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/conversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/conversion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/admin_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/admin_routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/auth_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/auth_routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/conversion_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/conversion_routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/main_routes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +33,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "chouanbou-eliel-ops"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/chouanbou-eliel-ops/PythonProjectCurrency.git",
+    "accountId": "26f94e45-57fd-4173-9f20-93838763a670"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -92,6 +84,87 @@
       <option name="presentableId" value="Default" />
       <updated>1770115155176</updated>
     </task>
+    <task id="LOCAL-00001" summary="creation des routes">
+      <option name="closed" value="true" />
+      <created>1770300730882</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770300730882</updated>
+    </task>
+    <task id="LOCAL-00002" summary="creation des routes">
+      <option name="closed" value="true" />
+      <created>1770301525478</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770301525478</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initialuisation du projet avec la mise en place des differnts services et fichiers de bases">
+      <option name="closed" value="true" />
+      <created>1770301704856</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770301704856</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ajout de module dans extensions.py">
+      <option name="closed" value="true" />
+      <created>1770302455824</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770302455824</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ajout des migrations set des outils de gestion de connexion">
+      <option name="closed" value="true" />
+      <created>1770302593264</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770302593264</updated>
+    </task>
+    <task id="LOCAL-00006" summary="apport des outils dans l'app">
+      <option name="closed" value="true" />
+      <created>1770302795050</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1770302795050</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commenter la creation de tables et faire remonter le return">
+      <option name="closed" value="true" />
+      <created>1770302844431</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1770302844431</updated>
+    </task>
+    <task id="LOCAL-00008" summary="creation des configurations pour l'appli&#10;principalement des elements correspondant à la base de donnée">
+      <option name="closed" value="true" />
+      <created>1770303078103</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1770303078103</updated>
+    </task>
+    <task id="LOCAL-00009" summary="recreation du fichier run.py">
+      <option name="closed" value="true" />
+      <created>1770303205973</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1770303205973</updated>
+    </task>
+    <task id="LOCAL-00010" summary="modification du nom de la blueprint admin">
+      <option name="closed" value="true" />
+      <created>1770305186232</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1770305186233</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,5 +177,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="creation des routes" />
+    <MESSAGE value="initialuisation du projet avec la mise en place des differnts services et fichiers de bases" />
+    <MESSAGE value="ajout de module dans extensions.py" />
+    <MESSAGE value="ajout des migrations set des outils de gestion de connexion" />
+    <MESSAGE value="apport des outils dans l'app" />
+    <MESSAGE value="commenter la creation de tables et faire remonter le return" />
+    <MESSAGE value="creation des configurations pour l'appli&#10;principalement des elements correspondant à la base de donnée" />
+    <MESSAGE value="recreation du fichier run.py" />
+    <MESSAGE value="modification du nom de la blueprint admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="modification du nom de la blueprint admin" />
   </component>
 </project>

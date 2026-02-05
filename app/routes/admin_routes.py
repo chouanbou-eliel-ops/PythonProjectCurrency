@@ -2,14 +2,14 @@ from flask import Blueprint, render_template
 
 admin = Blueprint('admin_bp', __name__)
 
-@main.route('/admin')
+@admin.route('/admin')
 def admin():
     return render_template('admin/admin.html')
 
-@main.route('/admin/stats')
+@admin.route('/admin/stats')
 def admin_stats():
     return render_template('admin/stats.html')
 
-@main.route('/admin/users')
+@admin.route('/admin/users')
 def admin_users():
     return render_template('admin/users.html')

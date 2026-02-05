@@ -1,6 +1,6 @@
 from flask import Blueprint, render_template
 
-main = Blueprint('admin', __name__)
+admin = Blueprint('admin_bp', __name__)
 
 @main.route('/admin')
 def admin():

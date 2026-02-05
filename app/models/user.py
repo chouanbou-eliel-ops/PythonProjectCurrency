@@ -8,5 +8,7 @@ class User (UserMixin, db.Model):
     password_hash = db.Column(db.String(128), nullable=False)
     role = db.Column(db.String(20), nullable=False)
     is_admin = db.Column(db.Boolean, default=False)
+    conversions = db.relationship("Conversion", backref="user", lazy=True)
+
     def __repr__(self):
         return f"<User {self.username}>"

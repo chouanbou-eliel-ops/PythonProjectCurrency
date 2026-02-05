@@ -4,3 +4,4 @@ sqlalchemy
 flask-login
 flask-migrate
 python-dotenv
+pandas

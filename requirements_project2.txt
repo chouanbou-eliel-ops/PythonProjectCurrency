@@ -1,0 +1,6 @@
+flask
+yfinance
+sqlalchemy
+flask-login
+flask-migrate
+python-dotenv

@@ -1,4 +1,5 @@
 from app.extensions import db
+from datetime import datetime
 
 class conversion(db.Model):
     __tablename__ = 'conversion_bp'

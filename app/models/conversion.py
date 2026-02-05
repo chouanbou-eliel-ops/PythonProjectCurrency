@@ -14,3 +14,6 @@ class conversion(db.Model):
         self.from_currency = from_currency
         self.to_currency = to_currency
         self.rate = rate
+
+    def __repr__(self):
+        return f"{self.from_currency}->{self.to_currency} : {self.rate}"

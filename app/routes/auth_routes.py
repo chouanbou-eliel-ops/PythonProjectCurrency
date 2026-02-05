@@ -7,7 +7,17 @@ auth_bp = Blueprint('auth_bp', __name__)
 
 @auth_bp.route('/login', methods=['GET', 'POST'])
 def login():
-    pass
+    if request.method == "POST":
+        user = authenticate_user(
+            request.form["email"],
+            request.form["password"]
+        )
+        if user:
+            login_user(user)
+            return redirect(url_for("main.home"))
+        flash("Identifiants incorrects")
+
+    return render_template("auth/login.html")
 
 @auth_bp.route('/ logout')
 def logout():

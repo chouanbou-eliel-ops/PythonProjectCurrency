@@ -1,7 +1,7 @@
 from app.extensions import db
 from datetime import datetime
 
-class conversion(db.Model):
+class Conversion(db.Model):
     __tablename__ = 'conversion_bp'
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))

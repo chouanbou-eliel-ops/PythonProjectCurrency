@@ -9,7 +9,7 @@
 
 ## 📖 Description
 
-Currency Converter Web App est une application web développée avec **Flask** permettant aux utilisateurs de convertir des devises en temps réel, de sauvegarder automatiquement leurs conversions et de consulter leur historique personnel via un système d’authentification sécurisé.
+Currency Converter Web App est une application web développée avec **Flask** permettant aux utilisateurs de convertir des devises en temps réel, de telecharger des datasets des dernieres evolution du taux de change entre deux monnaies, de sauvegarder automatiquement leurs conversions et de consulter leur historique personnel via un système d’authentification sécurisé.
 
 Le projet adopte une **architecture modulaire** inspirée des bonnes pratiques professionnelles afin de garantir maintenabilité, évolutivité et clarté du code.
 

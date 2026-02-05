@@ -20,7 +20,16 @@ def signin():
 
 @auth_bp.route('/register', methods=['POST'])
 def register():
-    return "n"
+    if request.method == "POST":
+        register_user(
+            request.form["username"],
+            request.form["email"],
+            request.form["password"]
+        )
+        flash("Compte créé avec succès")
+        return redirect(url_for("auth.login"))
+
+    return render_template("auth/register.html")
 
 @auth_bp.route('/auth/profile')
 def auth_profile():

@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Convertisseur de monnaie</h2>
+
+<form method="POST">
+    <input type="text" name="from_currency" placeholder="From (USD)" required>
+    <input type="text" name="to_currency" placeholder="To (EUR)" required>
+    <input type="number" step="0.01" name="amount" placeholder="Montant">
+
+    <button type="submit">Convertir</button>
+</form>
+
+{% if result %}
+<p>Result: {{ result }}</p>
+{% endif %}
+
+{% endblock %}

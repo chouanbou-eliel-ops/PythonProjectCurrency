@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block title %}Admin Dashboard{% endblock %}
+
+{% block content %}
+
+<h2>Admin Dashboard</h2>
+
+<section class="stats">
+
+    <div class="card">
+        <h3>Total Users</h3>
+        <p>{{ total_users }}</p>
+    </div>
+
+    <div class="card">
+        <h3>Total Conversions</h3>
+        <p>{{ total_conversions }}</p>
+    </div>
+
+</section>
+
+<hr>
+
+<h3>Users</h3>
+
+<table>
+<tr>
+    <th>ID</th>
+    <th>Username</th>
+    <th>Email</th>
+    <th>Admin</th>
+</tr>
+
+{% for user in users %}
+<tr>
+    <td>{{ user.id }}</td>
+    <td>{{ user.username }}</td>
+    <td>{{ user.email }}</td>
+    <td>{{ user.is_admin }}</td>
+</tr>
+{% endfor %}
+</table>
+
+<hr>
+
+<h3>Recent Conversions</h3>
+
+<table>
+<tr>
+    <th>User</th>
+    <th>From</th>
+    <th>To</th>
+    <th>Amount</th>
+    <th>Result</th>
+</tr>
+
+{% for c in conversions %}
+<tr>
+    <td>{{ c.user.username }}</td>
+    <td>{{ c.from_currency }}</td>
+    <td>{{ c.to_currency }}</td>
+    <td>{{ c.amount }}</td>
+    <td>{{ c.result }}</td>
+</tr>
+{% endfor %}
+</table>
+
+{% endblock %}

@@ -6,7 +6,7 @@ class User (UserMixin, db.Model):
     username = db.Column(db.String(20), unique=True, nullable=False)
     email = db.Column(db.String(120), unique=True, nullable=False)
     password_hash = db.Column(db.String(128), nullable=False)
-    role = db.Column(db.String(20), nullable=False)
+    role = db.Column(db.String(20), nullable=False, default="user")
     is_admin = db.Column(db.Boolean, default=False)
     conversions = db.relationship("Conversion", backref="user", lazy=True)
 

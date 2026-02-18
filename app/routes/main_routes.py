@@ -6,7 +6,12 @@ main_bp= Blueprint('main_bp', __name__)
 
 @main_bp.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('conversion/index.html')
+
+@main_bp.route("/")
+@login_required
+def home():
+    return render_template("Conversion/index.html")
 
 @main_bp.route("/preview-csv", methods=["POST"])
 def preview_csv():

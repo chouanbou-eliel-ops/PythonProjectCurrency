@@ -7,7 +7,7 @@
 
 ---
 
-## 📖 Description
+##  Description
 
 Currency Converter Web App est une application web développée avec **Flask** permettant aux utilisateurs de convertir des devises en temps réel, de telecharger des datasets des dernieres evolution du taux de change entre deux monnaies, de sauvegarder automatiquement leurs conversions et de consulter leur historique personnel via un système d’authentification sécurisé.
 
@@ -15,7 +15,7 @@ Le projet adopte une **architecture modulaire** inspirée des bonnes pratiques p
 
 ---
 
-## 🚀 Fonctionnalités
+##  Fonctionnalités
 
 - Création de compte utilisateur  
 - Connexion / Déconnexion  
@@ -44,11 +44,7 @@ Le projet adopte une **architecture modulaire** inspirée des bonnes pratiques p
 
 ## 📂 Structure du projet
 
-
-## 📁 Structure du projet
-
-PythonProjectCurrency/
-
+PythonProjectCurrency/  
 ├── run.py  
 ├── Config.py   
 ├── requirements.txt    
@@ -119,6 +115,7 @@ user = User.query.filter_by(email="admin@test.com").first()
 user.is_admin = True
 db.session.commit()
 ```
+---
 
 🔐 Sécurité
 
@@ -134,16 +131,19 @@ db.session.commit()
 
 - Graphiques statistiques
 
+- Cache des resultats
+
 - API publique
 
 - Version Desktop
 
 - Version Mobile
 
+---
 
 ## 👨‍💻 Auteur
 
-Eliel Weme
+### Eliel Weme
 
-Étudiant & développeur Python
+Étudiant et développeur Python
 

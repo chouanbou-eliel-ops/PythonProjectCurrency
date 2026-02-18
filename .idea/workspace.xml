@@ -4,18 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec02c0e1-9739-42dc-a083-a0cf02e3e9ca" name="Changes" comment="initialuisation du projet avec la mise en place des differnts services et fichiers de bases">
+    <list default="true" id="ec02c0e1-9739-42dc-a083-a0cf02e3e9ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/static/css/auth_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/auth/auth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/conver/conversion.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Static/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Static/Scripts/scipts.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config.py" beforeDir="false" afterPath="$PROJECT_DIR$/Config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/extensions.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/extensions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/conversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/conversion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes/admin_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/admin_routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes/auth_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/auth_routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes/conversion_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/conversion_routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/main_routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/main_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/main_routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/admin_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/admin_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/auth_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/auth_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/currency_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/currency_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/admin/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/auth/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/auth/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/auth/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/auth/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/conversion/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/conversion/history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/conversion/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/conversion/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,18 +45,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "chouanbou-eliel-ops"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;chouanbou-eliel-ops&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/chouanbou-eliel-ops/PythonProjectCurrency.git",
-    "accountId": "26f94e45-57fd-4173-9f20-93838763a670"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/chouanbou-eliel-ops/PythonProjectCurrency.git&quot;,
+    &quot;accountId&quot;: &quot;26f94e45-57fd-4173-9f20-93838763a670&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -53,16 +65,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Config.executor&quot;: &quot;Run&quot;,
+    &quot;Python.auth_service.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run.executor&quot;: &quot;Run&quot;,
+    &quot;Python.user.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\USER\PycharmProjects\PythonProjectCurrency" />
@@ -164,7 +180,199 @@
       <option name="project" value="LOCAL" />
       <updated>1770305186233</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="modification de l'orthographe de certains elements">
+      <option name="closed" value="true" />
+      <created>1770310682840</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1770310682840</updated>
+    </task>
+    <task id="LOCAL-00012" summary="modification de l'orthographe de certains elements et des blueprints &#10;mais il remplissage aleatoire des routes">
+      <option name="closed" value="true" />
+      <created>1770310752928</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1770310752928</updated>
+    </task>
+    <task id="LOCAL-00013" summary="suppression de la route signup (pas utile)">
+      <option name="closed" value="true" />
+      <created>1770311048321</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1770311048321</updated>
+    </task>
+    <task id="LOCAL-00014" summary="creation des routes pour voir ses informations et pouvoir les modifier">
+      <option name="closed" value="true" />
+      <created>1770311283294</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1770311283294</updated>
+    </task>
+    <task id="LOCAL-00015" summary="ajout du module pandas">
+      <option name="closed" value="true" />
+      <created>1770311657790</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1770311657790</updated>
+    </task>
+    <task id="LOCAL-00016" summary="creation de la route vers la previsualisation des datasets">
+      <option name="closed" value="true" />
+      <created>1770311874941</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1770311874941</updated>
+    </task>
+    <task id="LOCAL-00017" summary="ajout du type de &quot;conversion et commentaire associé&quot;">
+      <option name="closed" value="true" />
+      <created>1770324095861</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1770324095861</updated>
+    </task>
+    <task id="LOCAL-00018" summary="ajout des propriétés is_admin à la table User">
+      <option name="closed" value="true" />
+      <created>1770324376858</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1770324376858</updated>
+    </task>
+    <task id="LOCAL-00019" summary="creation de fonctions permettant d'authentifier un utilisateur">
+      <option name="closed" value="true" />
+      <created>1770326548029</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1770326548029</updated>
+    </task>
+    <task id="LOCAL-00020" summary="amelioration de la route &quot;/register&quot;">
+      <option name="closed" value="true" />
+      <created>1770326715702</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1770326715702</updated>
+    </task>
+    <task id="LOCAL-00021" summary="ajout de fonction pour la table conversion">
+      <option name="closed" value="true" />
+      <created>1770327851085</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1770327851085</updated>
+    </task>
+    <task id="LOCAL-00022" summary="ajout du temps actuel a la table conversion">
+      <option name="closed" value="true" />
+      <created>1770327887240</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1770327887240</updated>
+    </task>
+    <task id="LOCAL-00023" summary="importation du module datetime">
+      <option name="closed" value="true" />
+      <created>1770327925721</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1770327925721</updated>
+    </task>
+    <task id="LOCAL-00024" summary="ajout du lien entre un utilisateur un operation">
+      <option name="closed" value="true" />
+      <created>1770328102395</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1770328102395</updated>
+    </task>
+    <task id="LOCAL-00025" summary="modification du nom de la class (conversion to Conversion)">
+      <option name="closed" value="true" />
+      <created>1770329017082</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1770329017082</updated>
+    </task>
+    <task id="LOCAL-00026" summary="ajout de l'attribut type">
+      <option name="closed" value="true" />
+      <created>1770329039159</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1770329039159</updated>
+    </task>
+    <task id="LOCAL-00027" summary="creation du login">
+      <option name="closed" value="true" />
+      <created>1770329142498</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1770329142498</updated>
+    </task>
+    <task id="LOCAL-00028" summary="creation des routes liées à l'historique">
+      <option name="closed" value="true" />
+      <created>1770329307657</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1770329307657</updated>
+    </task>
+    <task id="LOCAL-00029" summary="declaration des modules pour les routes principales">
+      <option name="closed" value="true" />
+      <created>1770329421405</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1770329421405</updated>
+    </task>
+    <task id="LOCAL-00030" summary="declararion de la fonction pour charger un utilsateur">
+      <option name="closed" value="true" />
+      <created>1770329470628</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1770329470628</updated>
+    </task>
+    <task id="LOCAL-00031" summary="definition de fonctions pour les services administrateurs">
+      <option name="closed" value="true" />
+      <created>1770329978951</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1770329978951</updated>
+    </task>
+    <task id="LOCAL-00032" summary="creation du README.md">
+      <option name="closed" value="true" />
+      <created>1770331883887</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1770331883887</updated>
+    </task>
+    <task id="LOCAL-00033" summary="amelioration du README.md">
+      <option name="closed" value="true" />
+      <created>1770332386848</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1770332386848</updated>
+    </task>
+    <task id="LOCAL-00034" summary="ajout de qodo dans gitignore">
+      <option name="closed" value="true" />
+      <created>1771191592772</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1771191592772</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,15 +387,31 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="creation des routes" />
-    <MESSAGE value="initialuisation du projet avec la mise en place des differnts services et fichiers de bases" />
-    <MESSAGE value="ajout de module dans extensions.py" />
-    <MESSAGE value="ajout des migrations set des outils de gestion de connexion" />
-    <MESSAGE value="apport des outils dans l'app" />
-    <MESSAGE value="commenter la creation de tables et faire remonter le return" />
-    <MESSAGE value="creation des configurations pour l'appli&#10;principalement des elements correspondant à la base de donnée" />
-    <MESSAGE value="recreation du fichier run.py" />
     <MESSAGE value="modification du nom de la blueprint admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="modification du nom de la blueprint admin" />
+    <MESSAGE value="modification de l'orthographe de certains elements" />
+    <MESSAGE value="modification de l'orthographe de certains elements et des blueprints &#10;mais il remplissage aleatoire des routes" />
+    <MESSAGE value="suppression de la route signup (pas utile)" />
+    <MESSAGE value="creation des routes pour voir ses informations et pouvoir les modifier" />
+    <MESSAGE value="ajout du module pandas" />
+    <MESSAGE value="creation de la route vers la previsualisation des datasets" />
+    <MESSAGE value="ajout du type de &quot;conversion et commentaire associé&quot;" />
+    <MESSAGE value="ajout des propriétés is_admin à la table User" />
+    <MESSAGE value="creation de fonctions permettant d'authentifier un utilisateur" />
+    <MESSAGE value="amelioration de la route &quot;/register&quot;" />
+    <MESSAGE value="ajout de fonction pour la table conversion" />
+    <MESSAGE value="ajout du temps actuel a la table conversion" />
+    <MESSAGE value="importation du module datetime" />
+    <MESSAGE value="ajout du lien entre un utilisateur un operation" />
+    <MESSAGE value="modification du nom de la class (conversion to Conversion)" />
+    <MESSAGE value="ajout de l'attribut type" />
+    <MESSAGE value="creation du login" />
+    <MESSAGE value="creation des routes liées à l'historique" />
+    <MESSAGE value="declaration des modules pour les routes principales" />
+    <MESSAGE value="declararion de la fonction pour charger un utilsateur" />
+    <MESSAGE value="definition de fonctions pour les services administrateurs" />
+    <MESSAGE value="creation du README.md" />
+    <MESSAGE value="amelioration du README.md" />
+    <MESSAGE value="ajout de qodo dans gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout de qodo dans gitignore" />
   </component>
 </project>

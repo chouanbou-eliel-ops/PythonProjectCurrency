@@ -1,4 +1,4 @@
-# creer un admin
+# creer un admin_bp
 #bloquer user
 #voir les statistiques
 

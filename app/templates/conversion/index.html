@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+    <h1>Currency Converter</h1>
+    <p>Convertissez vos devises simplement et rapidement.</p>
+
+    {% if current_user.is_authenticated %}
+        <a href="{{url_for('Conversion.convert')}}" class="btn">Start Converting</a>
+        <a href="{{url_for('auth_bp.logout')}}">Deconnexion</a>
+    {% else %}
+        <a href="/register" class="btn">Create Account</a>
+        <a href="/login" class="btn">Sign In</a>
+    {% endif %}
+</section>
+
+{% endblock %}
